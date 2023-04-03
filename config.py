@@ -5,19 +5,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-
-# Mandatory variables for the bot to start
-
-New chat
-
-
-jakeerhussein1997@gmail.com
-Code: import os
-
-from dotenv import load_dotenv
-load_dotenv()
-
-
 # Mandatory variables for the bot to start
 API_ID = int(os.getenv("API_ID", "Your Api Id"))
 API_HASH = os.environ.get("API_HASH", "Your Api Hash")
@@ -28,7 +15,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
 DATABASE_URL = os.getenv("DATABASE_URL", "Mongodb url") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(12345678)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Updates Channel User name Without @") # For Force Subscription
