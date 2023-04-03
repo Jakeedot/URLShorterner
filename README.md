@@ -36,6 +36,12 @@ Convert Any Shortner Link To Your With Post
 * `start` - check bot alive
 * `about` - details about bot
 
+## How to Setup Your Shortener Base
+This library code, Go to "user.py" in database folder
+#### Find and replace with your <b>Site Base</b>
+```
+base_site: shortener.com
+```
   
 ## Credits 
 
