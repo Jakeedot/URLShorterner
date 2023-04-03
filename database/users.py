@@ -19,7 +19,7 @@ async def get_user(user_id):
             "mdisk_api": None,
             "header_text": "",
             "footer_text": "",
-            "username": None,
+            "username": "",
             "base_site": "ez4short.com",
             "banner_image": None,
             "is_banner_image": True,
