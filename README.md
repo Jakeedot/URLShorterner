@@ -1,4 +1,4 @@
-# Shortner-Converter-Bot-V2
+# URL Shortner Telegram Bot 
 Convert Any Shortner Link To Your With Post
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ANY+SHORTNER+BULK+POST+CONVERTER!;CREATED+BY+TECHNICAL+CYNITE!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
