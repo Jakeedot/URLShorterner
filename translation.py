@@ -116,7 +116,7 @@ Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
 Get API From [{base_site}](https://ez4short.com/ref/jakeedot)
 
-Current {base_site} API: `{shortener_api}`"""
+Current API: `{shortener_api}`"""
 
 HEADER_MESSAGE = """Reply to the Header Text You Want
 
