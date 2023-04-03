@@ -17,10 +17,10 @@ Convert Any Shortner Link To Your With Post
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jakeedot/URLShortener)
 
 ## Variables Required for Bot
-* `API_ID' - Your Telegram API id
-* `API_HASH' - Your Telegram API hash
+* `API_ID` - Your Telegram API id
+* `API_HASH` - Your Telegram API hash
 * `BOT_TOKEN` - Your Telegram bot token from @BotFather
-* `ADMINS' - Admins Telegram id (If you don't have admin then, enter owner id) 
+* `ADMINS` - Admins Telegram id (If you don't have admin then, enter owner id) 
 * `DATABASE_NAME`- Your DB name. Default name 'my'
 * `DATABASE_URL` - Your database url from MongoDB.com 
 * `OWNER_ID` - Owner id from Telegram
