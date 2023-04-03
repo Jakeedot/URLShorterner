@@ -2,49 +2,34 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-START_MESSAGE = '''**Hello, {}
-I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From Your ShortnerFly Account,
-    
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
-2. Than Copy API Key
-3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
+START_MESSAGE = '''**Hi, {}**
+I am EZ4Short bot, bulk link converter with your posts/messages. I can convert links directly from your EZ4Short account.
+'''
 
-**/api(space)API Key 
+HELP_MESSAGE = '''**Hi, {}**
+I am EZ4Short bot, bulk link converter with your posts/messages. I can convert links directly from your EZ4Short account.
+    
+1. Go To 👉 https://tinyurl.com/EZ4Short  
+2. Then Copy API Key
+3. Then long press /api command then paste your API Key (see example to understand more...)
+
+**/api Your API Key 
 (See Example.👇)
 Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-**➕ Hit** 👉 /Features To Know More Features Of This Bot.
-**💁‍♀️ Hit** 👉 /help To Get Help.
-**➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
-**➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
+**➕ Hit** 👉 /Features To know more features of this bot.
+**💁‍♀️ Hit** 👉 /help To get help.
+**➕ Hit** 👉 /channel Adding your channel to bot.
+**➕ Hit** 👉 /footer Adding your custom footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly than **contact** at 👉 @Cyniteofficial (all **shortners** support available.)
+**Contact** 👉 @Jakeedot (For support)
 '''
 
-HELP_MESSAGE = '''**Hello, {}
-I Am ShortnerFly, Bulk Link Converter Bot. I Can Convert Links Directly From Your ShortnerFly Account,**
-    
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
-2. Than **Copy API** Key
-3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
-
-**/api(space)API Key 
-(See Example.👇)
-Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
-
-**➕ Hit** 👉 /Features To Know More Features Of This Bot.
-**💁‍♀️ Hit** 👉 /help To Get Help.
-**➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
-**➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
-
-If You Want Any **Other Shortner** Link Converter Bot Instead Of ""Shortnerfly** than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)**
-'''
-
-ABOUT_TEXT = '''**Hey! My name is @ShortnerFlyBot. I am Shortener Fly Link Converter Bot.**
+ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **Shortnerfly** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **EZ4Short** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
@@ -56,7 +41,7 @@ ABOUT_TEXT = '''**Hey! My name is @ShortnerFlyBot. I am Shortener Fly Link Conve
 
 • **No** need to share **password or email** to convert links.**
 
- Anyone who want to use any **other shortner** instead of ShortnerFly than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)
+ **Contact** 👉 @Jakeedot (For support)
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -65,7 +50,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/shortnerfly | Shortnerfly"""
+Ex: https://t.me/EZ4ShortBot | EZ4Short Bot - Earn Money"""
 
 
 ADMINS_MESSAGE = """
@@ -131,7 +116,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://shortnerfly/ref/rngharman)
+Get API From [{base_site}](https://ez4short.com/ref/jakeedot)
 
 Current {base_site} API: `{shortener_api}`"""
 
@@ -149,18 +134,18 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hello Harman, I am shortnerfly.com, Bulk Link Converter Bot From Linked shortnerfly.com Account,**
+USERNAME_TEXT = """**Hi! {}, I am EZ4Short bot, bulk link converter bot From Linked Your EZ4Short Account,**
 
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @shortnerfly
+/channel @EZ4Short
 Or
-/channel https://t.me/shortnerfly
+/channel https://t.me/EZ4Short
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @cyniteofficial For More Help -**"""
+**- Message @Jakeedot For More Help -**"""
 
 BANNER_IMAGE = """
 Usage: `/banner_image image_url` or reply to any Image with this command
