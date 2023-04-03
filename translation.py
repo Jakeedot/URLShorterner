@@ -48,7 +48,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/EZ4ShortBot | EZ4Short Bot - Earn Money"""
+Ex: https://t.me/EZ4ShortBot | EZ4Short"""
 
 
 ADMINS_MESSAGE = """
@@ -70,7 +70,7 @@ ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
 HELP_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('More Features', callback_data=f'about_command')
+        InlineKeyboardButton('More Features', callback_data=f'help_command')
         
     ],
 
