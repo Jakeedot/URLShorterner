@@ -70,7 +70,7 @@ ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
 HELP_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('More Features', callback_data=f'help_command')
+        InlineKeyboardButton('Start', callback_data=f'start_command')
         
     ],
 
