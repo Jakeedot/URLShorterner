@@ -60,7 +60,7 @@ List of Admins who has access to this Bot
 ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('Custom Alias', url=f'https://bit.ly)
+        InlineKeyboardButton('Custom Alias', url=f'https://bit.ly')
         
     ],
 
