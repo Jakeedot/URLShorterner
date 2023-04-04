@@ -24,8 +24,6 @@ Convert Any Shortner Link To Your With Post
 * `DATABASE_NAME`- Your DB name. Default name 'my'
 * `DATABASE_URL` - Your database url from MongoDB.com 
 * `OWNER_ID` - Owner id from Telegram
-
-## Optionnal variables
 * `LOG_CHANNEL` - Your Telegram logs Channels id
 * `UPDATE_CHANNEL` - Your Telegram updates Channel user name without @ (for Force Subscription)
 * `BROADCAST_AS_COPY` - Default value is 'True' ('True' if forward should be avoided)
