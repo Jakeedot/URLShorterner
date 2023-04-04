@@ -57,7 +57,7 @@ List of Admins who has access to this Bot
 {admin_list}
 """
 
-ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
+ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
         InlineKeyboardButton('Custom Alias', callback_data=f'alias_conf')
@@ -67,7 +67,7 @@ ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
 
 ])
 
-HELP_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([
+HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
         InlineKeyboardButton('More Features', callback_data=f'about_command')
