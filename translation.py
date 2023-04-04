@@ -32,7 +32,7 @@ ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
 
 • I Can **auto** add custom **Header text** to your every post. Hit 👉 /header To know more...
 
-• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/banner_image To Know More... 
+• I Can **Automatically Replace** Your **Banner** Image To images in the post. Hit  👉/banner_image To Know More... 
 
 • **No** need to share **password or email** to convert links.**
 
@@ -45,7 +45,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/EZ4ShortBot | EZ4Short"""
+Ex: https://t.me/reUpdates | Updates"""
 
 
 ADMINS_MESSAGE = """
