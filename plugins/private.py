@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 channel = UPDATE_CHANNEL
 
-ft = f"Due To Overload Only Channel Sub Are Use This Bot Join @Shortnerfly."
+ft = f"Due To Overload Only Channel Members Are Allowed to Use This Bot"
 
 
 # Private Chat
@@ -24,7 +24,7 @@ async def private_link_handler(c: Client, message: Message):
 
     try:
         Fsub = await force_sub(c, message, channel, ft)
-        if Fsub == True:
+        if Fsub == False:
             return
         user = await get_user(message.from_user.id)
         if message.text and message.text.startswith('/'):
