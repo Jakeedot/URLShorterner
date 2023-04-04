@@ -35,12 +35,13 @@ Convert Any Shortner Link To Your With Post
 * `about` - details about bot
 * `help` - get help
 * `api` - set api token
+* footer - set footer text
 
 ## How to Setup Your Shortener Base
 In this code, Go to "[users.py](/database/users.py)" in database folder
 #### Find and replace with your <b>Site Base</b>
 ```
-base_site: shortener.com
+base_site: ez4short.com
 ```
   
 ## Credits 
