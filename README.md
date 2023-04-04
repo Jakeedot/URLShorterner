@@ -35,7 +35,7 @@ Convert Any Shortner Link To Your With Post
 * `about` - details about bot
 * `help` - get help
 * `api` - set api token
-* footer - set footer text
+* `footer` - set footer text
 
 ## How to Setup Your Shortener Base
 In this code, Go to "[users.py](/database/users.py)" in database folder
