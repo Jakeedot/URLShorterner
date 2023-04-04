@@ -15,7 +15,7 @@ A bot to short link support bulk link conversion. I can convert links directly f
 (See Example.👇)
 Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-**➕ Hit** 👉 /Features To know more features of this bot.
+**➕ Hit** 👉 /features To know more features of this bot.
 **💁‍♀️ Hit** 👉 /help To get help.
 **➕ Hit** 👉 /channel Adding your channel to bot.
 **➕ Hit** 👉 /footer Adding your custom footer to bot.
@@ -31,11 +31,11 @@ ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
-• I Can **auto** add custom **Header text** to your every post. Hit 👉 /Header To know more...
+• I Can **auto** add custom **Header text** to your every post. Hit 👉 /header To know more...
 
 • I Can **replace / remove** other's **channel links** with **your channel** link. Hit 👉 /channel To know More...
 
-• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/Banner To Know More... 
+• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/banner To Know More... 
 
 • **No** need to share **password or email** to convert links.**
 
@@ -70,7 +70,7 @@ ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
 HELP_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('Start', callback_data=f'start_command')
+        InlineKeyboardButton('More Features', callback_data=f'about_command')
         
     ],
 
@@ -118,11 +118,11 @@ Get API From [{base_site}](https://ez4short.com/ref/jakeedot)
 
 Current API: `{shortener_api}`"""
 
-HEADER_MESSAGE = """Reply to the Header Text You Want
+HEADER_MESSAGE = """**Reply to the Header Text You Want**
 
-This Text will be added to the top of every message caption or text
+This Text will be added to the top of every message **caption** or text
 
-For adding line break use \n
+For adding **line break** use \n
 To Remove Header Text: `/header remove`"""
 
 FOOTER_MESSAGE = """**Reply to the Footer Text You Want**
@@ -146,7 +146,7 @@ Or
 **- Message @Jakeedot For More Help -**"""
 
 BANNER_IMAGE = """
-Usage: `/banner_image image_url` or reply to any Image with this command
+**Usage:** `/banner_image image_url` or reply to any Image with this command
 
 This image will be automatically replaced with other images in the post
 
