@@ -17,7 +17,6 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
 **➕ Hit** 👉 /features To know more features of this bot.
 **💁‍♀️ Hit** 👉 /help To get help.
-**➕ Hit** 👉 /channel Adding your channel to bot.
 **➕ Hit** 👉 /footer Adding your custom footer to bot.
 
 **Contact** 👉 @Jakeedot (For support)
@@ -33,9 +32,7 @@ ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
 
 • I Can **auto** add custom **Header text** to your every post. Hit 👉 /header To know more...
 
-• I Can **replace / remove** other's **channel links** with **your channel** link. Hit 👉 /channel To know More...
-
-• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/banner To Know More... 
+• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/banner_image To Know More... 
 
 • **No** need to share **password or email** to convert links.**
 
