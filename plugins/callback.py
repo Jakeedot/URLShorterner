@@ -96,11 +96,11 @@ async def on_callback_query(bot: Client, query: CallbackQuery):
     if query.data == 'delete':
         await query.message.delete()
     elif query.data == 'help_command':
-        await query.message.edit(HELP_MESSAGE.format(firstname=temp.FIRST_NAME, username=temp.BOT_USERNAME), reply_markup=HELP_REPLY_MARKUP, disable_web_page_preview=True)
+        await query.message.edit(HELP_MESSAGE.format(firstname=temp.FIRST_NAME, username=temp.BOT_USERNAME), reply_markup=HELP_MESSAGE_REPLY_MARKUP, disable_web_page_preview=True)
 
     elif query.data == 'about_command':
         bot = await bot.get_me()
-        await query.message.edit(ABOUT_TEXT.format(bot.mention(style='md')), reply_markup=ABOUT_REPLY_MARKUP, disable_web_page_preview=True)
+        await query.message.edit(ABOUT_TEXT.format(bot.mention(style='md')), reply_markup=ABOUT_TEXT_REPLY_MARKUP, disable_web_page_preview=True)
 
     elif query.data == 'start_command':
         new_user = await get_user(query.from_user.id)
