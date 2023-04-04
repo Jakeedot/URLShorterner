@@ -1,11 +1,11 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_MESSAGE = '''**Hi, {}**
-I am EZ4Short bot, bulk link converter with your posts/messages. I can convert links directly from your EZ4Short account.
+I am EZ4Short bot, bulk link converter with your posts/messages. I can convert & earn money directly from your links.
 '''
 
 HELP_MESSAGE = '''**Hi, {}**
-I am EZ4Short bot, bulk link converter with your posts/messages. I can convert links directly from your EZ4Short account.
+A bot to short link support bulk link conversion. I can convert links directly from your EZ4Short account.
     
 1. Go To 👉 https://bit.ly/EZ4Short  
 2. Then Copy API Key
