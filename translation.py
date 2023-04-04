@@ -84,7 +84,7 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
 
 BACK_REPLY_MARKUP = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Back', callback_data=f'return')
+        InlineKeyboardButton('Back', callback_data=f'')
     ],
 
 ])
