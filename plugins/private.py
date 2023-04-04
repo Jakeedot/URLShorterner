@@ -53,7 +53,7 @@ From User :- {message.from_user.mention} [`{message.from_user.id}`]"""
                 if LOG_CHANNEL and message.media:
                     await message.copy(LOG_CHANNEL, bin_caption)
                 elif message.text and LOG_CHANNEL:
-                    await c.send_message(LOG_CHANNEL, bin_caption, disable_web_page_preview=True)
+                    await c.send_message(LOG_CHANNEL, bin_caption, disable_web_page_preview=False)
             except PeerIdInvalid as e:
                 logging.error("Make sure that the bot is admin in your log channel")
         except Exception as e:
