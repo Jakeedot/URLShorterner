@@ -5,11 +5,11 @@ I am EZ4Short bot, bulk link converter with your posts/messages. I can convert &
 '''
 
 HELP_MESSAGE = '''**Hi, {}**
-A bot to short link support bulk link conversion. I can convert links directly from your EZ4Short account.
+A bot to short link support bulk link conversion. I can convert links directly from your shrinkme.ioaccount.
     
-1. Go To 👉 https://bit.ly/EZ4Short  
+1. Go To 👉 https://shrinkme.io/api
 2. Then Copy API Key
-3. Then long press /api command then paste your API Key (see example to understand more...)
+3. Then long press /api command then paste your API Key (43158cd2de15fd89738b02619a33de9ec093e47b)
 
 **/api Your API Key 
 (See Example.👇)
@@ -22,11 +22,11 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **Contact** 👉 @Jakeedot (For support)
 '''
 
-ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
+ABOUT_TEXT = '''**Hey! My name is 68985.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **EZ4Short** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **68985** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
@@ -45,7 +45,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/reUpdates | Updates"""
+Ex:  Updates"""
 
 
 ADMINS_MESSAGE = """
