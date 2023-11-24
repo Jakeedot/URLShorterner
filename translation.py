@@ -90,11 +90,11 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://ez4short.com/ref/jakeedot)
+- Website: [{base_site}](https://shrinkme.io/ref/Hs534415)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
-- Replace Channel Username: @{username}
+- Replace Channel Username: @layersyetem
 
 - Header Text: 
 {header_text}
@@ -111,9 +111,9 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://ez4short.com/ref/jakeedot)
+Get API From [{base_site}](https://shrinkme.io/ref/Hs534415)
 
-Current API: `{shortener_api}`"""
+Current API: `{43158cd2de15fd89738b02619a33de9ec093e47b}`"""
 
 HEADER_MESSAGE = """**Reply to the Header Text You Want**
 
@@ -129,14 +129,14 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hi! {}, I am EZ4Short bot, bulk link converter bot From Linked Your EZ4Short Account,**
+USERNAME_TEXT = """**Hi! {}, I am EZ4Short bot, bulk link converter bot From Linked Your 68985 Account,**
 
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @EZ4Short
+/channel @layersyetem
 Or
-/channel https://t.me/EZ4Short
+/channel https://t.me/layersyetem
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
