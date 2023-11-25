@@ -13,7 +13,7 @@ ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "").split(",") if i.s
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Hs534415:<H79090@kumar>@cluster0.nagkto0.mongodb.net/") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "-1001906223425 -1001706300873")) 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "-1001906223425")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1993185966")) 
